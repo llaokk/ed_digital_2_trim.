@@ -4,5 +4,13 @@ body{
 }
 
 .caixa{
-
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    padding: 20px;
+    border-radius: 100px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+    width: 2000px;
+    
 }
