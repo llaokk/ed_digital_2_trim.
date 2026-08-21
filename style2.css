@@ -1,6 +1,10 @@
 body{
     background: linear-gradient(to bottom, #291d11 10%, #61daa1 90%);
     min-height: 100vh;
+    display: flex;
+    align-items: center;      /* vertical */
+    justify-content: center;  /* horizontal */
+    text-align: center;
 }
 
 .caixa{
@@ -11,6 +15,8 @@ body{
     border-radius: 100px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     color: #fff;
-    width: 2000px;
+    width: 400px;
+    height: 400px;
+
     
 }
